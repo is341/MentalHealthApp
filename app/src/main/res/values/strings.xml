@@ -1,0 +1,30 @@
+<resources>
+    <string name="default_input_hint">Type your message</string>
+    <string name="app_name">Mental Health</string>
+    <string name="q1">How many close friends would you say you have?</string>
+    <string name="q2">Over the last 12 months, how frequently have you felt alone or lonely?</string>
+    <string name="q3">Over the last 12 months, how frequently have you felt so worried about something that you were unable to sleep at night?</string>
+    <string name="q4">Over the last 12 months, how often did you seriously consider attempting suicide?</string>
+    <string name="q5">Over the last 12 months, did you ever plan how you might attempt suicide?</string>
+    <string name="q6">Complete homework within deadlines?</string>
+    <string name="q7">Focus on school subjects?</string>
+    <string name="q8">Get information on class assignments from the library?</string>
+    <string name="q9">Take part in class discussions?</string>
+    <string name="q10">Keep your academic work organized?</string>
+    <string name="questions_link">https://positivepsychology.com/mental-health-questions/</string>
+
+    <string name="ext1">1) Have fun with a jigsaw puzzle</string>
+    <string name="exd1">Whether you’re putting together a 1,000-piece image of the Eiffel Tower or joining 100 pieces to make Mickey Mouse, working on a jigsaw puzzle is an excellent way to strengthen your brain. Research has shown that doing jigsaw puzzles recruits multiple cognitive abilities and is a protective factor for visuospatial cognitive aging. In other words, when putting together a jigsaw puzzle, you have to look at different pieces and figure out where they fit within the larger picture. This can be a great way to challenge and exercise your brain.</string>
+    <string name="ext2">2) Try your hand at cards</string>
+    <string name="exd2">When’s the last time you played a game of cards? Researchers who conducted a study in 2015 on mentally stimulating activities for adults, say a quick card game can lead to greater brain volume in several regions of the brain. The same study also found that a game of cards could improve memory and thinking skills.</string>
+    <string name="ext3">3) Build your vocabulary</string>
+    <string name="exd3">A rich vocabulary has a way of making you sound smart. But did you know you can also turn a quick vocab lesson into a stimulating brain game? \n Research shows that many more regions of the brain are involved in vocabulary tasks, particularly in areas that are important for visual and auditory processing. To test this theory, try this cognitive-boosting activity:</string>
+    <string name="ext4">4) Dance your heart out</string>
+    <string name="exd4">The Centers for Disease Prevention and Control notes that learning new dance moves can increase your brain’s processing speed and memory. In other words, bust a move on the dance floor and your brain will thank you.</string>
+    <string name="ext5">5) Use all your senses</string>
+    <string name="exd5">A 2015 research report  suggests that using all your senses may help strengthen your brain. \n\nTo give your senses and your brain a workout, try doing activities that simultaneously engage all five of your senses. You could try baking a batch of cookies, visiting a farmer’s market, or trying a new restaurant while you focus on smelling, touching, tasting, seeing, and hearing all at the same time.</string>
+    <string name="ext6">6) Learn a new skill</string>
+    <string name="exd6">Learning a new skill is not only fun and interesting, but it may also help strengthen the connections in your brain. \n\nResearch from 2014 also shows that learning a new skill can help improve memory function in older adults.\n\nIs there something you’ve always wanted to learn how to do? Perhaps you’d like to know how to repair your car, use a particular software program, or ride a horse? You now have one more good reason to learn that new skill.</string>
+    <string name="ext7">7) Teach a new skill to someone else</string>
+    <string name="exd7">One of the best ways to expand your learning is to teach a skill to another person. \n\nAfter you learn a new skill, you need to practice it. Teaching it to someone else requires you to explain the concept and correct any mistakes you make. For example, learn to swing a golf club, then teach the steps to a friend.</string>
+</resources>

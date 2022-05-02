@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#39D3D3D3"
+    tools:context=".Registration">
+
+    <TextView
+        android:id="@+id/materialTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="70dp"
+        android:paddingBottom="100dp"
+        android:background="@drawable/layout_bg"
+        android:text="Mental Health"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginBottom="20dp"-->
+    <!--        >-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_signup"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:gravity="center"-->
+    <!--            android:onClick="registration_screen"-->
+    <!--            android:text="Don't have an account? click here to sign up"-->
+    <!--            android:textSize="17sp"-->
+
+    <!--            />-->
+
+    <!--    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+
+            <LinearLayout
+                android:id="@+id/linearlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign up "
+                    android:textColor="@color/blue_700"
+                    android:textSize="24dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+
+                    />
+
+                <RadioGroup
+                    android:id="@+id/rdGroup"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+
+                    >
+                    <RadioButton
+                        android:checked="true"
+                        android:id="@+id/rdPatient"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="I'm a patient"/>
+
+                    <RadioButton
+                        android:id="@+id/rdDoctor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I'm a doctor"/>
+
+
+
+                </RadioGroup>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_layout_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundColor="@color/white"
+                    android:hint="Enter Username">
+
+                    <EditText
+                        android:id="@+id/etusername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_layout_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundColor="@color/white"
+                    android:hint="Enter Password">
+
+                    <EditText
+                        android:id="@+id/etpassword"
+                        android:inputType="textPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_layout_fullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:boxBackgroundColor="@color/white"
+                    android:hint="Enter Full Name">
+                    <EditText
+                        android:id="@+id/etfullname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_layout_designation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:boxBackgroundColor="@color/white"
+                    android:hint="Enter Designation">
+                    <EditText
+                        android:id="@+id/etdesignation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_layout_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:boxBackgroundColor="@color/white"
+                    android:hint="Enter email">
+                    <EditText
+                        android:id="@+id/etemail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_layout_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:boxBackgroundColor="@color/white"
+                    android:hint="Enter Phone">
+                    <EditText
+                        android:id="@+id/etphone"
+                        android:inputType="phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/bg2"
+
+                    android:onClick="register"
+                    android:text="sign up" />
+
+                <TextView
+                    android:id="@+id/tv_signin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:onClick="login_screen"
+                    android:text="Already have an account? click here to Login"
+                    android:textSize="17sp"
+
+                    />
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/pBar"
+        android:visibility="gone"
+        />
+</RelativeLayout>

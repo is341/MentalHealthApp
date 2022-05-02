@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#39D3D3D3"
+        tools:context=".ShowQuizActivity">
+
+        <TextView
+            android:id="@+id/materialTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="70dp"
+            android:paddingBottom="100dp"
+            android:background="@drawable/layout_bg"
+            android:text="Mental Health"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+
+                android:backgroundTint="@color/white"
+                app:cardCornerRadius="6dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+                    <LinearLayout
+                        android:id="@+id/linearlayout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Answers From Patient "
+                            android:textColor="@color/blue_700"
+                            android:textSize="24dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="20dp"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/q1"/>
+                        <RadioGroup
+                            android:id="@+id/q1radioGroup"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            >
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q1radioAns1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"/>
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q1radioAns2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1-3"/>
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q1radioAns3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3+"/>
+
+                        </RadioGroup>
+
+
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/q2"/>
+                        <RadioGroup
+                            android:id="@+id/q2radioGroup"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            >
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q2radioAns1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Very often"/>
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q2radioAns2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Once or twice a month"/>
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q2radioAns3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Once a week"/>
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q2radioAns4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Every day"/>
+
+                        </RadioGroup>
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/q3"/>
+                        <RadioGroup
+                            android:id="@+id/q3radioGroup"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            >
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q3radioAns1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Very often"/>
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q3radioAns2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Once or twice a month"/>
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q3radioAns3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Once a week"/>
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q3radioAns4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Every night"/>
+
+                        </RadioGroup>
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/q4"/>
+                        <RadioGroup
+                            android:id="@+id/q4radioGroup"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            >
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q4radioAns1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Never"/>
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q4radioAns2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Once or twice"/>
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q4radioAns3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2+"/>
+
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/q5"/>
+                        <RadioGroup
+                            android:id="@+id/q5radioGroup"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            >
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q5radioAns1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Never"/>
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q5radioAns2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Once or twice"/>
+                            <RadioButton
+                                android:enabled="false"
+                                android:id="@+id/q5radioAns3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2+"/>
+
+
+                        </RadioGroup>
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_60sdp"/>
+
+                    </LinearLayout>
+
+
+                </ScrollView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </RelativeLayout>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:id="@+id/pBar"/>
+
+    </RelativeLayout>
